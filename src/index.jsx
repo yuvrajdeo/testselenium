@@ -29,7 +29,7 @@ BacktraceClient.initialize({
 
 const routing = (
   <ErrorBoundary>
-    <Router>
+    <Router basename="/testselenium">
       <Routes>
         <Route path={ROUTES.LOGIN} element={<Login />} />
         <Route
